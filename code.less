@@ -1,0 +1,902 @@
+@media screen and (max-width: 480px){
+	.than{
+		display: none;
+	}
+}
+@media screen and (max-width: 750px){
+	.than{
+		display: none;
+	}
+}
+@media screen and (max-width: 1205px){
+	.than{
+		display: none;
+	}
+}
+
+
+@xanhblue: #1affa3;
+@xanhgreen: #00b359;
+*{
+	margin: 0 auto;
+	padding: 0 auto;
+}
+
+
+/*menu*/
+.menu{
+	float: left;
+	width: 100%;
+	//background: green;
+	height: 75px; 
+	position: absolute;
+	//opacity: 0.8;
+	.m1{
+		height: 75px;
+		float: left; 
+		//background: green;
+		h3{
+			color: @xanhgreen;
+			margin-top: 3%;
+			&:hover{
+				margin-top: 1%;
+				font-size: 50px;
+				font-weight: bold;
+				font-family: "Gabriola";
+				color: red;
+			}
+		}
+	}
+	.m2{
+		
+		float: left; 
+		height: 75px;
+		//background: gray;
+		.m21{
+			//background: yellow;
+			height: 75px;
+			ul{
+				font-size: 20px;
+				margin-left: 10px;
+				font-weight: bold;
+				color: #FFF;
+				 li{
+					
+					
+					color: #FFF;
+					a{
+						margin-left: 20px;
+						color: #FFF;
+						&:hover{
+							color: red;
+						}
+					}
+					
+			    }
+			}
+		}
+	}
+}
+/*ket thuc menu*/
+/*slide*/
+.slide{
+	float: left;
+	height: 650px;
+	@media screen and (max-width: 750px){
+		height: 400px;
+	}
+	.hovereffect{
+		width: 100%;
+		height: 100%;
+		overflow: hidden;
+		cursor: default;
+		position: relative;
+		img{
+			display: block;
+			width: 100%;
+			height: 650px;
+			transition: all 5s ease-in;
+			@media screen and (max-width: 750px){
+				height: 500px;
+				display: none;
+			}
+		}
+	}
+	.hovereffect:hover img{
+		transform: scale(2);
+	}
+}
+.fonts{
+		float: left;
+		height: 300px;
+		width: 650px;
+		position: absolute;
+		//background: gray;
+		top: 23%;
+		left: 15%;
+		
+	h1{
+		color: red;
+		font-size: 120px;
+		font-family:"Mistral";
+		margin-bottom: -10px;
+	}
+	p{
+		font-family: "Gabriola";
+		font-size: 25px;
+	}
+	button{
+		margin-top: 5%;
+		border-radius: 20px;
+		
+	}
+}
+.box1{
+	margin-top: 2%;
+	float: left;
+	width: 100%;
+	height: 520px;
+	//background: green;
+	
+	.slide1{
+		&:extend(.slide);
+		height: 250px;
+		//background: green;
+		
+		.hovereffect {
+			width:100%;
+			height:100%;
+			float:left;
+			overflow:hidden;
+			position:relative;
+			text-align:center;
+			cursor:default;
+			img{
+				display: block;
+				width: 100%;
+				height: 400px;
+				transition: all 5s ease-in;
+				@media screen and (max-width: 750px){
+					margin-bottom: 30%;
+				}
+			}
+		}
+		.hovereffect:hover img{
+			transform: scale(2);
+		}	
+	}
+	.fonts1{
+		&:extend(.fonts);
+		float: left;
+		height: 150px;
+		//background: pink;
+		top: 10%;
+		h1{
+			font-size: 50px;
+			color: @xanhgreen;
+			margin-bottom: 5px;
+			font-family:"Mistral";
+		}
+		p{
+			color: white;
+			font-family: "Gabriola";
+			font-size: 25px;
+		}
+	}
+	.img{
+		float: left;
+		width: 100%;
+		height: 250px;
+		//background: pink;
+		margin-left: 8.5%;
+		.img1a{
+			float: left;
+			//background: yellow;
+			height: 250px;
+			h4{
+				margin-top: 15%;
+				&:hover{
+					color: @xanhgreen;
+				}
+			}
+			p{
+
+				margin-top: 3%;
+			}
+		}
+	}
+}
+/*ket thuc slide*/
+/*box2*/
+.box2{
+
+	&:extend(.box1);
+	height: 300px;
+	background: #FFF;
+	.box2a{
+		float: left;
+		height: 250px;
+		.hovereffect {
+			width:100%;
+			height:100%;
+			float:left;
+			overflow:hidden;
+			position:relative;
+			text-align:center;
+			cursor:default;
+			img{
+				display: block;
+				width: 100%;
+				height: 400px;
+				transition: all 5s ease-in;
+			}
+		}
+		.hovereffect:hover img{
+			transform: scale(2);
+		}	
+	}
+	.box2b{
+		float: left;
+		height: 230px;
+		p{
+			font-family: "Gabriola";
+			margin-top: 3%;
+			font-size: 25px;
+		}
+		h1{
+			margin-top: -4%;
+			color: white;
+			font-size: 120px;
+			font-family:"Mistral";
+		}
+	}
+	
+}
+/*ket thuc box2*/
+/*box3*/
+.box3{
+	float: left;
+	height: 800px;
+	//background: pink;
+	.box3a{
+		width: 100%;
+		height: 150px;
+		//background: #FFF;
+		h1{
+			font-family:"Mistral" ;
+			font-size: 50px;
+			color: @xanhgreen;
+		}
+		p{
+			font-family: "Gabriola";
+			font-size: 25px;
+		}
+
+	}
+	.box3b{
+		width: 100%;
+		height: 300px;
+		//background: #FFF;
+		.box3b1{
+			float: left;
+			width: 100%;
+			height: 300px;
+			.hovereffect {
+				width:100%;
+				height:100%;
+				float:left;
+				overflow:hidden;
+				position:relative;
+				text-align:center;
+				cursor:default;
+				 img {
+				 	height: 300px;
+				 	width: 100%;
+					position:relative;
+					transition: all 5s ease-in;
+				}
+				&:hover img {
+					-ms-transform:scale(2);
+					-webkit-transform:scale(2);
+					transform:scale(2);
+				}
+			}	
+		}
+		.box3b2{
+			&:extend(.box3b1);
+			@media screen and (max-width: 750px){
+				display: none;
+			}
+			.hovereffect {
+				width:100%;
+				height:100%;
+				float:left;
+				overflow:hidden;
+				position:relative;
+				text-align:center;
+				cursor:default;
+				 img {
+				 	height: 300px;
+				 	width: 100%;
+					position:relative;
+					transition: all 5s ease-in;
+				}
+				&:hover img {
+					-ms-transform:scale(2);
+					-webkit-transform:scale(2);
+					transform:scale(2);
+				}
+			}	
+			
+		}
+	}
+	.box3c{
+		&:extend(.box3b);
+		@media screen and (max-width: 750px){
+				display: none;
+		}
+		.hovereffect {
+			width:100%;
+			height:100%;
+			float:left;
+			overflow:hidden;
+			position:relative;
+			text-align:center;
+			cursor:default;
+			 img {
+			 	height: 300px;
+			 	width: 100%;
+				position:relative;
+				transition: all 5s ease-in;
+			}
+			&:hover img {
+				-ms-transform:scale(2);
+				-webkit-transform:scale(2);
+				transform:scale(2);
+			}
+		}	
+		
+		.box3c1{
+			&:extend(.box3b1);
+		}
+	}
+}
+/*ket thuc box3*/
+/*box4*/
+.box4{
+	float: left;
+	width: 100%;
+	height: 650px;
+	iframe{
+		width: 100%;
+		height: 550px;
+	}
+}
+/*ket thuc box4*/
+/*box5*/
+.box5{
+	float: left;
+	width: 100%;
+	height: 600px;
+	//background: pink;
+	/*phan box5a*/
+	.box5a{
+		width: 100%;
+		height: 420px;
+		//background: gray;
+		/*phan box5a*/
+		.box5a1{
+			float: left;
+			height: 420px;
+			//background: green;
+			@media screen and (max-width: 750px){
+				display: none;
+			}
+			/*phan a1*/
+			.a1{
+				float: left;
+				height: 420px;
+				//background: yellow;
+				@media screen and (max-width: 750px){
+					display: none;
+				}
+				/*phan a1a*/
+				.a1a{
+					float: left;
+					height: 45px;
+					//background: green;
+					p{
+						font-size: 25px	;
+						font-family:"Gabriola";
+						margin-top: 3%;
+					}
+				}
+				/*ket thuc a1a*/
+				/*phan a1a*/
+				.a1b{
+					float: left;
+					height: 150px;
+					//background: red;
+					.a1b1{
+						float: left;
+						height: 150px;
+						//background: green;
+						p{
+							height:80px;
+							width:100%;
+							//background: yellow;
+							font-size: 30px;
+							color: @xanhblue;
+							margin-top: 24%;
+							
+						}
+					}
+					.a1b2{
+						float: left;
+						height: 150px;
+						//background: red;
+						h1{
+							color: @xanhblue;
+							font-size: 105px;
+							margin-top: -5%;
+							margin-left: -8%;
+												
+						}
+					}
+				}
+				/*ket thuc a1b*/
+				/*phan a2c*/
+				.a2c{
+					&:extend(.a1a);
+					
+				}
+				/*phan a2d*/
+				.a2d{
+					&:extend(.a1a);
+					height: 210px;
+					//background: #FFF;
+					@media screen and (max-width: 750px){
+								display: none;
+							}
+					.a2d1{
+						float: left;
+						height: 50px;
+						//background: red;
+						@media screen and (max-width: 750px){
+								display: none;
+							}
+						.a2d1a{
+							float: left;
+							width: 100%;
+							height: 100%;
+							@media screen and (max-width: 750px){
+								display: none;
+							}
+							//background: #FFF;
+							p{
+								margin-top: 3%;
+								@media screen and (max-width: 750px){
+									display: none;
+								}
+							}
+						}
+						.a2d1b{
+							a{
+								color: gray;
+								font-size: 25px;
+								font-family: "Gabriola";
+							}
+						}
+					}
+					.a2d2{
+						&:extend(.a2d1);
+						//background: gray;
+						.a2d2b{
+							a{
+								color: gray;
+								font-size: 25px;
+								font-family: "Gabriola";
+							}
+						}
+					}
+					.a2d3{
+						&:extend(.a2d1);
+						//background: pink;
+						.a2d3b{
+							a{
+								color: gray;
+								font-size: 25px;
+								font-family: "Gabriola";
+							}
+						}
+					}
+				}
+				/*ket thuc a1*/
+					
+			}
+			/*ket thuc a1*/
+			/*phan a2*/
+			.a2{
+				float: left;
+				height: 420px;
+				//background: yellow;
+				.a2a{
+					width: 100%;
+					height: 240px;
+					//background: #FFF;
+					p{
+						font-size: 28px	;
+						font-family:"Gabriola";
+						margin-top: 50%;
+						margin-bottom: -12px;
+					}
+					span{
+						color: gray;
+						font-size: 20px	;
+						font-family:"Gabriola";
+					}
+				}
+				.a2b1{
+					.a2b1b{
+						a{
+							color: gray;
+							font-size: 25px;
+							font-family: "Gabriola";
+						}
+					}
+				}
+				.a2b2{
+					.a2b2b{
+						a{
+							color: gray;
+							font-size: 25px;
+							font-family: "Gabriola";
+						}
+					}
+				}
+				.a2b3{
+					.a2b3b{
+						a{
+							color: gray;
+							font-size: 25px;
+							font-family: "Gabriola";
+						}
+					}
+				}
+				
+			}
+			/*ket thuc a2*/
+		}
+		/*ket thuc box5a1*/
+		/*phan box5b2*/
+		.box5b2{
+			float: left;
+			height: 420px;
+			//background: red;
+			.b1{
+				float: left;
+				height: 60px;
+				//background: green;
+				.b1a{
+					float: left;
+					width: 100%;
+					height: 3px;
+					background: @xanhgreen;
+				}
+				.b1b{
+					&:extend(.b1a);
+					background: #00e673;
+				}
+				.b1c{
+					&:extend(.b1a);
+					background: #33ff99;
+				}
+			}
+			.b2{
+				float: left;
+				height: 80px;
+				//background: #3F9;
+				@media screen and (max-width: 750px){
+					font-size: 12px;
+					display: none;
+				}
+				p{
+					margin-top: -1%;
+					font-size: 25px;
+					font-family: "Gabriola";
+				}
+				h4{
+					margin-top: -3%;
+				}
+			}
+			.b3{
+				float: left;
+				height: 310px;
+				//background: blue;
+				.b3a{
+					float: left;
+					height: 45px;
+					margin-top: 1.5%;
+					//background: gray;
+					@media screen and (max-width: 750px){
+						line-height: 30%;
+					}
+				}
+			}
+		}
+		/*ket thuc box5b2*/
+	}
+	/* ket thuc box5a*/
+	/*phan box5b*/
+	.box5b{
+		float: left;
+		height: 180px;
+		//background: gray;
+		.box51b{
+			float: left;
+			height: 130px;
+			background: #FFF;
+			@media screen and (max-width: 750px){
+				padding-top: -50%;
+			}
+			h5{
+				font-weight: bold;
+				margin-top: 5%;
+				font-size: 30px;
+				font-family: "Gabriola";
+			}
+		}
+		.box52b{
+			&:extend(.box5b1);
+			//background: #33ff99;
+			@media screen and (max-width: 750px){
+				display: none;
+			}
+			.b11{
+				float: left;
+				height: 80px;
+				//background: #FFF;
+				input{
+					margin-top: 6%;
+					margin-left:20%;
+					width: 25px;
+					height: 25px;
+
+				}
+				p{
+					margin-top: 5%;
+				}
+			}
+			button{
+				margin-top: 2%;
+				margin-left: 41%;
+			}
+		}
+	}
+	/*ket thuc box5b*/
+}
+/*ket thuc box5*/
+
+/*phan box6*/
+.box6{
+	float: left;
+	height: 250px;
+	//background: red;
+	.hovereffect {
+		width:100%;
+		height:100%;
+		float:left;
+		overflow:hidden;
+		position:relative;
+		text-align:center;
+		cursor:default;
+		 img {
+		 	height: 250px;
+		 	width: 100%;
+			position:relative;
+			transition: all 5s ease-in;
+		}
+		&:hover img {
+			-ms-transform:scale(2);
+			-webkit-transform:scale(2);
+			transform:scale(2);
+		}
+	}	
+}
+/*ket thuc box6*/
+/*phan box7*/
+.box7{
+	float: left;
+	height: 500px;
+	//background: gray;
+	.box71{
+		float: left;
+		height: 500px;
+		//background: pink;
+		.box71a{
+			float: left;
+			height: 100px;
+			//background: gray;
+			p{
+				font-size: 20px;
+				font-weight: bold;
+				color: @xanhblue;
+				margin-top: 5%;
+			}
+		}
+		.box71b{
+			float: left;
+			height: 400px;
+			//background: #FFF;
+			button{
+				margin-top: 5%;
+			}
+			p{
+				margin-top: 3%;
+				font-weight: bold;
+				font-family: "Gabriola";
+				font-size: 25px;
+			}
+			.box71b1{
+				margin-top: 5%;
+			}
+			h5{
+				margin-top: 3%;
+				font-weight: bold;
+			}
+			span{
+				
+				font-weight: bold;
+				color: gray;
+			}
+		}
+
+	}
+}
+/*ket thuc box7*/
+/*phan box8*/
+.box8{
+	float: left;
+	height: 700px;
+	//background: pink;
+	.box81{
+		float: left;
+		height: 150px;
+		//background: #FFF;
+		h1{
+			margin-top: 2%;
+			font-size: 50px;
+			font-family: "Mistral";
+			color:  @xanhgreen;
+		}
+		p{
+			font-size: 25px;
+			font-family: "Gabriola";
+		}
+	}
+	.box82{
+		margin-left: 9%;
+		float: left;
+		height: 250px;
+		.hovereffect {
+			width:100%;
+			height:100%;
+			float:left;
+			overflow:hidden;
+			position:relative;
+			text-align:center;
+			cursor:default;
+			 img {
+			 	height: 250px;
+			 	width: 100%;
+				position:relative;
+				-webkit-transition:all .4s linear;
+				transition:all .4s linear;
+			}
+			&:hover img {
+				-ms-transform:scale(1.2);
+				-webkit-transform:scale(1.2);
+				transform:scale(1.2);
+			}
+		}	
+	}
+	.box83{
+		&:extend(.box82);
+		margin-left: 9%;
+		.hovereffect {
+			width:100%;
+			height:100%;
+			float:left;
+			overflow:hidden;
+			position:relative;
+			text-align:center;
+			cursor:default;
+			 img {
+			 	height: 250px;
+			 	width: 100%;
+				position:relative;
+				-webkit-transition:all .4s linear;
+				transition:all .4s linear;
+			}
+			&:hover img {
+				-ms-transform:scale(1.2);
+				-webkit-transform:scale(1.2);
+				transform:scale(1.2);
+			}
+		}	
+	}
+}
+/*ket thuc box8*/
+/*phan box9*/
+.box9{
+	float: left;
+	height: 200px;
+	//background: pink;
+	@media screen and (max-width: 750px){
+		margin-top: 110%;
+	}
+	.box91{
+		float: left;
+		height: 200px;
+		@media screen and (max-width: 750px){
+			display: none;
+		}
+		h3{
+			color: gray;
+			margin-top: 10%;
+			&:hover{
+				color: red;
+			}
+		}
+	}
+	.box92{
+		float: left;
+		height: 200px;
+		@media screen and (max-width: 750px){
+			margin-top: 150%;
+		}
+		.box92a{
+			float: left;
+			height: 200px;
+			//background: red;
+			
+			.box92a1{
+				margin-top: 6%;
+				height: 150px;
+				//background: #FFF;
+				ul{
+					li{
+						font-weight: bold;
+						color: gray;
+						&:hover{
+							color: red;
+						}
+					}
+				}
+			}
+			.box92a2{
+				float: left;
+				height: 150px;
+				//background: green;
+				margin-top: 6%;
+				.a21{
+					float: left;
+					height: 50px;
+					//background: #FFF;
+					
+				}
+				.a22{
+					float: left;
+					height: 80px;
+					margin-top: 3%;
+					//background: yellow;
+					p{
+						font-weight: bold;
+						color: gray;
+					}
+				}
+			}
+		}
+	}
+}
+/*ket thuc box9*/

@@ -1,0 +1,812 @@
+@media screen and (max-width: 480px) {
+  .than {
+    display: none;
+  }
+}
+@media screen and (max-width: 750px) {
+  .than {
+    display: none;
+  }
+}
+@media screen and (max-width: 1205px) {
+  .than {
+    display: none;
+  }
+}
+* {
+  margin: 0 auto;
+  padding: 0 auto;
+}
+/*menu*/
+.menu {
+  float: left;
+  width: 100%;
+  height: 75px;
+  position: absolute;
+}
+.menu .m1 {
+  height: 75px;
+  float: left;
+}
+.menu .m1 h3 {
+  color: #00b359;
+  margin-top: 3%;
+}
+.menu .m1 h3:hover {
+  margin-top: 1%;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Gabriola";
+  color: red;
+}
+.menu .m2 {
+  float: left;
+  height: 75px;
+}
+.menu .m2 .m21 {
+  height: 75px;
+}
+.menu .m2 .m21 ul {
+  font-size: 20px;
+  margin-left: 10px;
+  font-weight: bold;
+  color: #FFF;
+}
+.menu .m2 .m21 ul li {
+  color: #FFF;
+}
+.menu .m2 .m21 ul li a {
+  margin-left: 20px;
+  color: #FFF;
+}
+.menu .m2 .m21 ul li a:hover {
+  color: red;
+}
+/*ket thuc menu*/
+/*slide*/
+.slide,
+.box1 .slide1 {
+  float: left;
+  height: 650px;
+}
+@media screen and (max-width: 750px) {
+  .slide,
+  .box1 .slide1 {
+    height: 400px;
+  }
+}
+.slide .hovereffect {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  cursor: default;
+  position: relative;
+}
+.slide .hovereffect img {
+  display: block;
+  width: 100%;
+  height: 650px;
+  transition: all 5s ease-in;
+}
+@media screen and (max-width: 750px) {
+  .slide .hovereffect img {
+    height: 500px;
+    display: none;
+  }
+}
+.slide .hovereffect:hover img {
+  transform: scale(2);
+}
+.fonts,
+.box1 .fonts1 {
+  float: left;
+  height: 300px;
+  width: 650px;
+  position: absolute;
+  top: 23%;
+  left: 15%;
+}
+.fonts h1 {
+  color: red;
+  font-size: 120px;
+  font-family: "Mistral";
+  margin-bottom: -10px;
+}
+.fonts p {
+  font-family: "Gabriola";
+  font-size: 25px;
+}
+.fonts button {
+  margin-top: 5%;
+  border-radius: 20px;
+}
+.box1,
+.box2 {
+  margin-top: 2%;
+  float: left;
+  width: 100%;
+  height: 520px;
+}
+.box1 .slide1 {
+  height: 250px;
+}
+.box1 .slide1 .hovereffect {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
+.box1 .slide1 .hovereffect img {
+  display: block;
+  width: 100%;
+  height: 400px;
+  transition: all 5s ease-in;
+}
+@media screen and (max-width: 750px) {
+  .box1 .slide1 .hovereffect img {
+    margin-bottom: 30%;
+  }
+}
+.box1 .slide1 .hovereffect:hover img {
+  transform: scale(2);
+}
+.box1 .fonts1 {
+  float: left;
+  height: 150px;
+  top: 10%;
+}
+.box1 .fonts1 h1 {
+  font-size: 50px;
+  color: #00b359;
+  margin-bottom: 5px;
+  font-family: "Mistral";
+}
+.box1 .fonts1 p {
+  color: white;
+  font-family: "Gabriola";
+  font-size: 25px;
+}
+.box1 .img {
+  float: left;
+  width: 100%;
+  height: 250px;
+  margin-left: 8.5%;
+}
+.box1 .img .img1a {
+  float: left;
+  height: 250px;
+}
+.box1 .img .img1a h4 {
+  margin-top: 15%;
+}
+.box1 .img .img1a h4:hover {
+  color: #00b359;
+}
+.box1 .img .img1a p {
+  margin-top: 3%;
+}
+/*ket thuc slide*/
+/*box2*/
+.box2 {
+  height: 300px;
+  background: #FFF;
+}
+.box2 .box2a {
+  float: left;
+  height: 250px;
+}
+.box2 .box2a .hovereffect {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
+.box2 .box2a .hovereffect img {
+  display: block;
+  width: 100%;
+  height: 400px;
+  transition: all 5s ease-in;
+}
+.box2 .box2a .hovereffect:hover img {
+  transform: scale(2);
+}
+.box2 .box2b {
+  float: left;
+  height: 230px;
+}
+.box2 .box2b p {
+  font-family: "Gabriola";
+  margin-top: 3%;
+  font-size: 25px;
+}
+.box2 .box2b h1 {
+  margin-top: -4%;
+  color: white;
+  font-size: 120px;
+  font-family: "Mistral";
+}
+/*ket thuc box2*/
+/*box3*/
+.box3 {
+  float: left;
+  height: 800px;
+}
+.box3 .box3a {
+  width: 100%;
+  height: 150px;
+}
+.box3 .box3a h1 {
+  font-family: "Mistral";
+  font-size: 50px;
+  color: #00b359;
+}
+.box3 .box3a p {
+  font-family: "Gabriola";
+  font-size: 25px;
+}
+.box3 .box3b {
+  width: 100%;
+  height: 300px;
+}
+.box3 .box3b .box3b1 {
+  float: left;
+  width: 100%;
+  height: 300px;
+}
+.box3 .box3b .box3b1 .hovereffect {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
+.box3 .box3b .box3b1 .hovereffect img {
+  height: 300px;
+  width: 100%;
+  position: relative;
+  transition: all 5s ease-in;
+}
+.box3 .box3b .box3b1 .hovereffect:hover img {
+  -ms-transform: scale(2);
+  -webkit-transform: scale(2);
+  transform: scale(2);
+}
+@media screen and (max-width: 750px) {
+  .box3 .box3b .box3b2 {
+    display: none;
+  }
+}
+.box3 .box3b .box3b2 .hovereffect {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
+.box3 .box3b .box3b2 .hovereffect img {
+  height: 300px;
+  width: 100%;
+  position: relative;
+  transition: all 5s ease-in;
+}
+.box3 .box3b .box3b2 .hovereffect:hover img {
+  -ms-transform: scale(2);
+  -webkit-transform: scale(2);
+  transform: scale(2);
+}
+@media screen and (max-width: 750px) {
+  .box3 .box3c {
+    display: none;
+  }
+}
+.box3 .box3c .hovereffect {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
+.box3 .box3c .hovereffect img {
+  height: 300px;
+  width: 100%;
+  position: relative;
+  transition: all 5s ease-in;
+}
+.box3 .box3c .hovereffect:hover img {
+  -ms-transform: scale(2);
+  -webkit-transform: scale(2);
+  transform: scale(2);
+}
+/*ket thuc box3*/
+/*box4*/
+.box4 {
+  float: left;
+  width: 100%;
+  height: 650px;
+}
+.box4 iframe {
+  width: 100%;
+  height: 550px;
+}
+/*ket thuc box4*/
+/*box5*/
+.box5 {
+  float: left;
+  width: 100%;
+  height: 600px;
+  /*phan box5a*/
+  /* ket thuc box5a*/
+  /*phan box5b*/
+  /*ket thuc box5b*/
+}
+.box5 .box5a {
+  width: 100%;
+  height: 420px;
+  /*phan box5a*/
+  /*ket thuc box5a1*/
+  /*phan box5b2*/
+  /*ket thuc box5b2*/
+}
+.box5 .box5a .box5a1 {
+  float: left;
+  height: 420px;
+  /*phan a1*/
+  /*ket thuc a1*/
+  /*phan a2*/
+  /*ket thuc a2*/
+}
+@media screen and (max-width: 750px) {
+  .box5 .box5a .box5a1 {
+    display: none;
+  }
+}
+.box5 .box5a .box5a1 .a1 {
+  float: left;
+  height: 420px;
+  /*phan a1a*/
+  /*ket thuc a1a*/
+  /*phan a1a*/
+  /*ket thuc a1b*/
+  /*phan a2c*/
+  /*phan a2d*/
+  /*ket thuc a1*/
+}
+@media screen and (max-width: 750px) {
+  .box5 .box5a .box5a1 .a1 {
+    display: none;
+  }
+}
+.box5 .box5a .box5a1 .a1 .a1a {
+  float: left;
+  height: 45px;
+}
+.box5 .box5a .box5a1 .a1 .a1a p {
+  font-size: 25px	;
+  font-family: "Gabriola";
+  margin-top: 3%;
+}
+.box5 .box5a .box5a1 .a1 .a1b {
+  float: left;
+  height: 150px;
+}
+.box5 .box5a .box5a1 .a1 .a1b .a1b1 {
+  float: left;
+  height: 150px;
+}
+.box5 .box5a .box5a1 .a1 .a1b .a1b1 p {
+  height: 80px;
+  width: 100%;
+  font-size: 30px;
+  color: #1affa3;
+  margin-top: 24%;
+}
+.box5 .box5a .box5a1 .a1 .a1b .a1b2 {
+  float: left;
+  height: 150px;
+}
+.box5 .box5a .box5a1 .a1 .a1b .a1b2 h1 {
+  color: #1affa3;
+  font-size: 105px;
+  margin-top: -5%;
+  margin-left: -8%;
+}
+.box5 .box5a .box5a1 .a1 .a2d {
+  height: 210px;
+}
+@media screen and (max-width: 750px) {
+  .box5 .box5a .box5a1 .a1 .a2d {
+    display: none;
+  }
+}
+.box5 .box5a .box5a1 .a1 .a2d .a2d1 {
+  float: left;
+  height: 50px;
+}
+@media screen and (max-width: 750px) {
+  .box5 .box5a .box5a1 .a1 .a2d .a2d1 {
+    display: none;
+  }
+}
+.box5 .box5a .box5a1 .a1 .a2d .a2d1 .a2d1a {
+  float: left;
+  width: 100%;
+  height: 100%;
+}
+@media screen and (max-width: 750px) {
+  .box5 .box5a .box5a1 .a1 .a2d .a2d1 .a2d1a {
+    display: none;
+  }
+}
+.box5 .box5a .box5a1 .a1 .a2d .a2d1 .a2d1a p {
+  margin-top: 3%;
+}
+@media screen and (max-width: 750px) {
+  .box5 .box5a .box5a1 .a1 .a2d .a2d1 .a2d1a p {
+    display: none;
+  }
+}
+.box5 .box5a .box5a1 .a1 .a2d .a2d1 .a2d1b a {
+  color: gray;
+  font-size: 25px;
+  font-family: "Gabriola";
+}
+.box5 .box5a .box5a1 .a1 .a2d .a2d2 .a2d2b a {
+  color: gray;
+  font-size: 25px;
+  font-family: "Gabriola";
+}
+.box5 .box5a .box5a1 .a1 .a2d .a2d3 .a2d3b a {
+  color: gray;
+  font-size: 25px;
+  font-family: "Gabriola";
+}
+.box5 .box5a .box5a1 .a2 {
+  float: left;
+  height: 420px;
+}
+.box5 .box5a .box5a1 .a2 .a2a {
+  width: 100%;
+  height: 240px;
+}
+.box5 .box5a .box5a1 .a2 .a2a p {
+  font-size: 28px	;
+  font-family: "Gabriola";
+  margin-top: 50%;
+  margin-bottom: -12px;
+}
+.box5 .box5a .box5a1 .a2 .a2a span {
+  color: gray;
+  font-size: 20px	;
+  font-family: "Gabriola";
+}
+.box5 .box5a .box5a1 .a2 .a2b1 .a2b1b a {
+  color: gray;
+  font-size: 25px;
+  font-family: "Gabriola";
+}
+.box5 .box5a .box5a1 .a2 .a2b2 .a2b2b a {
+  color: gray;
+  font-size: 25px;
+  font-family: "Gabriola";
+}
+.box5 .box5a .box5a1 .a2 .a2b3 .a2b3b a {
+  color: gray;
+  font-size: 25px;
+  font-family: "Gabriola";
+}
+.box5 .box5a .box5b2 {
+  float: left;
+  height: 420px;
+}
+.box5 .box5a .box5b2 .b1 {
+  float: left;
+  height: 60px;
+}
+.box5 .box5a .box5b2 .b1 .b1a {
+  float: left;
+  width: 100%;
+  height: 3px;
+  background: #00b359;
+}
+.box5 .box5a .box5b2 .b1 .b1b {
+  background: #00e673;
+}
+.box5 .box5a .box5b2 .b1 .b1c {
+  background: #33ff99;
+}
+.box5 .box5a .box5b2 .b2 {
+  float: left;
+  height: 80px;
+}
+@media screen and (max-width: 750px) {
+  .box5 .box5a .box5b2 .b2 {
+    font-size: 12px;
+    display: none;
+  }
+}
+.box5 .box5a .box5b2 .b2 p {
+  margin-top: -1%;
+  font-size: 25px;
+  font-family: "Gabriola";
+}
+.box5 .box5a .box5b2 .b2 h4 {
+  margin-top: -3%;
+}
+.box5 .box5a .box5b2 .b3 {
+  float: left;
+  height: 310px;
+}
+.box5 .box5a .box5b2 .b3 .b3a {
+  float: left;
+  height: 45px;
+  margin-top: 1.5%;
+}
+@media screen and (max-width: 750px) {
+  .box5 .box5a .box5b2 .b3 .b3a {
+    line-height: 30%;
+  }
+}
+.box5 .box5b {
+  float: left;
+  height: 180px;
+}
+.box5 .box5b .box51b {
+  float: left;
+  height: 130px;
+  background: #FFF;
+}
+@media screen and (max-width: 750px) {
+  .box5 .box5b .box51b {
+    padding-top: -50%;
+  }
+}
+.box5 .box5b .box51b h5 {
+  font-weight: bold;
+  margin-top: 5%;
+  font-size: 30px;
+  font-family: "Gabriola";
+}
+@media screen and (max-width: 750px) {
+  .box5 .box5b .box52b {
+    display: none;
+  }
+}
+.box5 .box5b .box52b .b11 {
+  float: left;
+  height: 80px;
+}
+.box5 .box5b .box52b .b11 input {
+  margin-top: 6%;
+  margin-left: 20%;
+  width: 25px;
+  height: 25px;
+}
+.box5 .box5b .box52b .b11 p {
+  margin-top: 5%;
+}
+.box5 .box5b .box52b button {
+  margin-top: 2%;
+  margin-left: 41%;
+}
+/*ket thuc box5*/
+/*phan box6*/
+.box6 {
+  float: left;
+  height: 250px;
+}
+.box6 .hovereffect {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
+.box6 .hovereffect img {
+  height: 250px;
+  width: 100%;
+  position: relative;
+  transition: all 5s ease-in;
+}
+.box6 .hovereffect:hover img {
+  -ms-transform: scale(2);
+  -webkit-transform: scale(2);
+  transform: scale(2);
+}
+/*ket thuc box6*/
+/*phan box7*/
+.box7 {
+  float: left;
+  height: 500px;
+}
+.box7 .box71 {
+  float: left;
+  height: 500px;
+}
+.box7 .box71 .box71a {
+  float: left;
+  height: 100px;
+}
+.box7 .box71 .box71a p {
+  font-size: 20px;
+  font-weight: bold;
+  color: #1affa3;
+  margin-top: 5%;
+}
+.box7 .box71 .box71b {
+  float: left;
+  height: 400px;
+}
+.box7 .box71 .box71b button {
+  margin-top: 5%;
+}
+.box7 .box71 .box71b p {
+  margin-top: 3%;
+  font-weight: bold;
+  font-family: "Gabriola";
+  font-size: 25px;
+}
+.box7 .box71 .box71b .box71b1 {
+  margin-top: 5%;
+}
+.box7 .box71 .box71b h5 {
+  margin-top: 3%;
+  font-weight: bold;
+}
+.box7 .box71 .box71b span {
+  font-weight: bold;
+  color: gray;
+}
+/*ket thuc box7*/
+/*phan box8*/
+.box8 {
+  float: left;
+  height: 700px;
+}
+.box8 .box81 {
+  float: left;
+  height: 150px;
+}
+.box8 .box81 h1 {
+  margin-top: 2%;
+  font-size: 50px;
+  font-family: "Mistral";
+  color: #00b359;
+}
+.box8 .box81 p {
+  font-size: 25px;
+  font-family: "Gabriola";
+}
+.box8 .box82 {
+  margin-left: 9%;
+  float: left;
+  height: 250px;
+}
+.box8 .box82 .hovereffect {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
+.box8 .box82 .hovereffect img {
+  height: 250px;
+  width: 100%;
+  position: relative;
+  -webkit-transition: all .4s linear;
+  transition: all .4s linear;
+}
+.box8 .box82 .hovereffect:hover img {
+  -ms-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.box8 .box83 {
+  margin-left: 9%;
+}
+.box8 .box83 .hovereffect {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
+.box8 .box83 .hovereffect img {
+  height: 250px;
+  width: 100%;
+  position: relative;
+  -webkit-transition: all .4s linear;
+  transition: all .4s linear;
+}
+.box8 .box83 .hovereffect:hover img {
+  -ms-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+/*ket thuc box8*/
+/*phan box9*/
+.box9 {
+  float: left;
+  height: 200px;
+}
+@media screen and (max-width: 750px) {
+  .box9 {
+    margin-top: 110%;
+  }
+}
+.box9 .box91 {
+  float: left;
+  height: 200px;
+}
+@media screen and (max-width: 750px) {
+  .box9 .box91 {
+    display: none;
+  }
+}
+.box9 .box91 h3 {
+  color: gray;
+  margin-top: 10%;
+}
+.box9 .box91 h3:hover {
+  color: red;
+}
+.box9 .box92 {
+  float: left;
+  height: 200px;
+}
+@media screen and (max-width: 750px) {
+  .box9 .box92 {
+    margin-top: 150%;
+  }
+}
+.box9 .box92 .box92a {
+  float: left;
+  height: 200px;
+}
+.box9 .box92 .box92a .box92a1 {
+  margin-top: 6%;
+  height: 150px;
+}
+.box9 .box92 .box92a .box92a1 ul li {
+  font-weight: bold;
+  color: gray;
+}
+.box9 .box92 .box92a .box92a1 ul li:hover {
+  color: red;
+}
+.box9 .box92 .box92a .box92a2 {
+  float: left;
+  height: 150px;
+  margin-top: 6%;
+}
+.box9 .box92 .box92a .box92a2 .a21 {
+  float: left;
+  height: 50px;
+}
+.box9 .box92 .box92a .box92a2 .a22 {
+  float: left;
+  height: 80px;
+  margin-top: 3%;
+}
+.box9 .box92 .box92a .box92a2 .a22 p {
+  font-weight: bold;
+  color: gray;
+}
+/*ket thuc box9*/
